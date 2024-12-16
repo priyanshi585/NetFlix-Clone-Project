@@ -1,0 +1,804 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  /* ---------------------------------Home page-------------------------------------------------- */
+  
+  #logo img {
+    margin-top: -20px;
+    height: 150px;
+  }
+  
+  #options {
+    margin-top: -90px;
+    margin-left: 1300px;
+  }
+  
+  #option {
+    padding: 5px;
+    height: 50px;
+    width: 120px;
+    margin-left: -160px;
+    margin-top: -10px;
+    background: none;
+    border-radius: 10px;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+    border: 3px solid white;
+  }
+  
+  .sign-in {
+    padding: 5px;
+    height: 50px;
+    width: 120px;
+    margin-left: 0px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  
+  .sign-in a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  
+  .sign-in:hover {
+    background-color: rgb(228, 7, 7);
+  }
+  
+  
+  #home::before {
+    content: "";
+    background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        url('https://repository-images.githubusercontent.com/299409710/b42f7780-0fe1-11eb-8460-e459acd20fb4')no-repeat center center/cover;
+    position: absolute;
+    height: 150%;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+  }
+
+  h1 {
+    margin-left: 270px;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  p {
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+    margin-left: 470px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .email p {
+    font-size: 25px;
+    margin-left: 280px;
+  }
+  
+  .input-box {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-size: 1.25rem;
+    margin-left: -30px;
+  }
+  
+  .text {
+    border: 3px solid white;
+    padding-left: 12px;
+    width: 500px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: rgb(27, 26, 26);
+  }
+  
+  .btn {
+    padding: 10px;
+    height: 60px;
+    width: 250px;
+    margin-top: 10px;
+    background-color: red;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: rgb(228, 7, 7);
+  }
+  hr {
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 1500px;
+    border: 5px solid gray;
+  }
+   
+  
+  /* ------------------------------Services Page------------------------------------------- */
+  
+  #Services::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 380%;
+    width: 100%;
+    z-index: -1;
+    top: 690px;
+    left: 0px;
+  }
+
+  .box{
+    height: 200px;
+    width: 100%;
+   }
+
+   .box img{
+    height: 400px;
+    width: 600px;
+   }
+  
+  .h1 {
+    margin-top: 380px;
+    margin-left: 150px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .h2 {
+    margin-top: 140px;
+    margin-left: 870px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .h3 {
+    margin-top: 140px;
+    margin-left: 140px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .h4 {
+    margin-top: 130px;
+    margin-left: 830px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+  .box1 {
+    height: 400px;
+    width: 600px;
+    margin-top: -150px;
+    margin-left: 800px;
+    
+  }
+  
+  .box2 {
+    height: 400px;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: -90px;
+  }
+  
+  .box3 {
+    height: 380px;
+    width: 550px;
+    margin-top: -100px;
+    margin-left: 800px;
+  }
+  
+  .box4 {
+    height: 400px;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: -150px;
+  }
+
+  .p1 {
+    margin-top: -260px;
+    margin-left: 150px;
+    font-size: 25px;
+    width: 650px;
+  }
+  
+  .p2 {
+    margin-top: -300px;
+    margin-left: 870px;
+    font-size: 25px;
+    width: 550px;
+  }
+  
+  .p3 {
+    margin-top: -260px;
+    margin-left: 150px;
+    font-size: 25px;
+    width: 650px;
+  }
+  
+  .p4 {
+    margin-top: -250px;
+    margin-left: 830px;
+    font-size: 25px;
+    width: 550px;
+  }
+   
+  hr {
+    margin-top: 300px;
+    margin-left: 10px;
+    width: 1500px;
+    /* width: 100%; */
+    border: 5px solid gray;
+  }
+  
+  /* --------------------------------FAQ PAge ----------------------------------------------- */
+  #ques h1 {
+    font-size: 40px;
+    color: white;
+    margin-top: 150px;
+  }
+  
+  #Questions {
+    content: "";
+    background: black;
+    position: absolute;
+    height: 500%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 1.5; */
+    top: 3250px;
+    left: 0px;
+  }
+  
+  .faq-heading {
+    border-bottom: #777;
+    padding: 0px;
+  }
+  
+  .hr-line {
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 200px;
+  
+  }
+  .faq-page {
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 70%;
+    border: none;
+    background-color: rgb(63, 59, 59);
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 280px;
+  }
+  
+  .faq-body {
+    color: white;
+    padding: 0px;
+    margin-left:-190px;
+    width: 100%;
+  }
+  
+  .faq-page:hover {
+    background-color:rgb(99, 93, 93);
+  }
+
+  .faq-page:after {
+    content: '\02795';
+    font-size: 20px;
+    float: right;
+  }
+  
+  .active:after {
+    content: "\2796";
+    display: contents;
+  }
+  
+  
+  /* -----------------------------Footer Section------------------------------------------------ */
+  
+  .footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    gap: 2rem;
+    margin-top: 2600px;
+    margin-left: 100px;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box h3 i {
+    color: white;
+  }
+  
+  .footer .box-container .box .share {
+    margin-top: 1rem;
+  }
+  
+  .footer .box-container .box .share a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    background-color: white;
+    color: #fff;
+    margin-right: 0.3rem;
+    text-align: center;
+  }
+  
+  .footer .box-container .box .share a:hover {
+    background-color: blue;
+  }
+  
+  .footer .box-container .box .link {
+    font-size: 22px;
+    line-height: 2;
+    color: white;
+    padding: 0.5rem 0;
+    display: block;
+  }
+  
+  .footer .box-container .box .link:hover {
+    color: #b9baf7;
+    text-decoration: underline;
+  }
+  
+  .footer .box-container .box p {
+    line-height: 2;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box .email {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    border: 0.1rem solid #0eb582;
+    margin-bottom: 1rem;
+  }
+  
+  .footer .credit {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    border-top: 0.1rem solid #0eb582;
+  }
+  
+  .footer .credit span {
+    color: #0eb582;
+  }
+  
+  .box_1{
+    margin-left: 50px;
+    font-size: 10px;
+  }
+  
+  .box_2{
+    margin-left: 400px;
+    margin-top: -248px;
+  }
+  
+  .box_3{
+    margin-left: 800px;
+    margin-top: -245px;
+  }
+  
+  .box_4{
+    margin-left: 1200px;
+    margin-top: -245px;
+  }
+  
+
+  
+  /* ---------------------------------Responsive Design-------------------------------------------- */
+  
+  
+  @media screen and (max-width:700px) and (min-width:350px) {
+    h1 {
+      margin-left: 25px;
+      margin-right: 25px;
+      text-align: center;
+      margin-top: 100px;
+      font-size: 30px;
+    }
+    
+    p {
+      margin-top: 25px;
+      font-size: 15px;
+      margin-left: 50px;
+    }
+
+    #logo img {
+      margin-top: 30px;
+      height: 50px;
+    }
+    
+    #options {
+      margin-top: -45px;
+      margin-left: 10px;
+    }
+    
+    #option {
+      padding: 1px;
+      height: 25px;
+      width: 75px;
+      margin-left: 193px;
+      margin-top: -200px;
+      background: none;
+      border-radius: 10px;
+      font-size: 12px;
+      justify-content: center;
+      color: white;
+      border: 3px solid white;
+    }
+    
+    .sign-in {
+      padding: 1px;
+      height: 30px;
+      width: 75px;
+      margin-left: 0px;
+      color: white;
+      background-color: red;
+      font-size: 12px;
+      border-radius: 10px;
+    }
+ 
+    .email p {
+      font-size: 15px;
+      margin-top: 40px;
+      margin-left: 20px;
+    }
+    
+    .input-box {
+      text-align: center;
+      display: block;
+      padding: 1px;
+      font-size: 10px;
+      margin-left: 5px;
+    }
+    
+    .text {
+      border: 3px solid white;
+      padding-left: 1px;
+      border-radius: 8px;
+      width: 240px;
+      height: 25px;
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+    }
+    
+    .btn {
+      padding: 0px;
+      height: 30px;
+      width: 100px;
+      font-size: 13px;
+      border-radius: 10px;
+    
+    }
+    
+    #Services::before {
+      top: 550px;
+    }
+    
+    
+    .h1 {
+      margin-top: 150px;
+      margin-left: 110px;
+      font-size: 20px;
+    }
+    
+    .h2 {
+      margin-top: 40px;
+      margin-left: 94px;
+      font-size: 20px;
+    }
+    
+    .h3 {
+      margin-top: 40px;
+      margin-left: 65px;
+      font-size: 20px;
+    }
+    
+    .h4 {
+      margin-top: 40px;
+      margin-left: 60px;
+      font-size: 20px;
+    }
+
+    .box img{
+      height: 300px;
+      width: 330px;
+    }
+    
+    .box1{
+      margin-top: 10px;
+      margin-left: 30px;
+    }
+    
+    .box2 {
+      margin-top: 20px;
+      margin-left: 30px;
+    }
+    
+    .box3 {
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+    
+    .box4 {
+      margin-top: 40px;
+      margin-left: 30px;
+    }
+    
+    .p1 {
+      margin-top:0px;
+      width: 90%;
+      margin-bottom: 20px;
+      color: white;
+      text-align: center;
+      font-size: 17px;
+      margin-left: 15px;
+    }
+    
+    .p2 {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+      width: 90%;
+      text-align: center;
+      font-size: 17px;
+    }
+    
+    .p3 {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      width: 90%;
+      margin-left: 10px;
+      text-align: center;
+      font-size: 17px;
+    }
+    
+    .p4 {
+      margin-top: 10px;
+      width: 90%;
+      margin-bottom: 30px;
+      margin-left: 10px;
+      text-align: center;
+      font-size: 17px;
+    }
+    
+    hr {
+      margin-top: 300px;
+      margin-left: 20px;
+      width: 320px;
+      border: 3px solid white;
+    }
+    
+    #ques h1 {
+      margin-top: 230px;
+      margin-bottom: 30px;
+      font-size: 30px;
+      color: white;
+    }
+    
+    #Questions {
+      content: "";
+      background-color: black;
+      position: absolute;
+      height: 250%;
+      width: 100%;
+      z-index: -1;
+      opacity: 1.5;
+      top: 2600px;
+      left: 0px;
+    }
+    
+  
+    .faq-heading {
+      border-bottom: #777;
+      padding: 20px 60px;
+    }
+    
+    .faq-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .hr-line {
+      width: 80%;
+      margin-left: 50px;
+      margin-top: 0px;
+     
+      border: 1px solid white;
+    
+    }
+    
+    /* Style the buttons that are used to open and close the faq-page body */
+    .faq-page {
+      color: white;
+      cursor: pointer;
+      padding: 30px 30px;
+      width: 70%;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+      margin: auto;
+      font-size: 17px;
+      margin-top: 10px;
+      margin-left: 30px;
+    }
+    
+    .faq-body {
+      /* margin: auto; */
+      /* text-align: center; */
+      width: 80%;
+      margin-left: 80px;
+      padding: auto;
+      font-size: 10px;
+      padding: 0px 18px;
+      /* background-color: rgb(46, 46, 235); */
+      color: white;
+      display: none;
+      overflow: hidden;
+    
+    }
+    .faq-page:after {
+      content: '\02795';
+      /* Unicode character for "plus" sign (+) */
+      font-size: 10px;
+      /* color: #777; */
+      float: right;
+      margin-left: 5px;
+      /* display:none; */
+    }
+    
+    .active:after {
+      content: "\2796";
+      /* Unicode character for "minus" sign (-) */
+    }
+  
+    .footer .box-container {
+      display: -ms-grid;
+      display: grid;
+      /* -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit]; */
+      /* grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); */
+      gap: 2rem;
+      margin-top: 900px;
+      margin-left: 20px;
+    }
+    
+    .footer .box-container .box h3 {
+      font-size: 20px;
+      text-transform: capitalize;
+      color: white;
+      padding: 1rem 0;
+    }
+    
+    .footer .box-container .box h3 i {
+      color: white;
+    }
+    
+    .footer .box-container .box .share {
+      margin-top: 1rem;
+    }
+    
+    .footer .box-container .box .share a {
+      height: 4.5rem;
+      width: 4.5rem;
+      line-height: 4.5rem;
+      font-size: 10px;
+      background-color: white;
+      color: #fff;
+      margin-right: 0.3rem;
+      text-align: center;
+    }
+    
+    .footer .box-container .box .share a:hover {
+      background-color: blue;
+    }
+    
+    .footer .box-container .box .link {
+      font-size: 9px;
+      line-height: 2;
+      color: white;
+      padding: 0.5rem 0;
+      display: block;
+    }
+    
+    .footer .box-container .box .link:hover {
+      color: #b9baf7;
+      text-decoration: underline;
+    }
+    
+    .footer .box-container .box p {
+      /* font-size: 1.5rem; */
+      line-height: 2;
+      color: white;
+      padding: 1rem 0;
+    }
+    
+    .footer .box-container .box .email {
+      width: 100%;
+      padding: 1.2rem 1.4rem;
+      /* font-size: 1.6rem; */
+      border: 0.1rem solid #0eb582;
+      margin-bottom: 1rem;
+    }
+    
+    .footer .credit {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 3rem;
+      font-size: 2rem;
+      text-transform: capitalize;
+      /* color: #444;  */
+      border-top: 0.1rem solid #0eb582;
+    }
+    
+    .footer .credit span {
+      color: #0eb582;
+    }
+    
+    .box_1{
+      margin-left: -10px;
+      /* font-size: 10px; */
+    }
+    
+    .box_2{
+      margin-left: 90px;
+      margin-top: -137px;
+    }
+    
+    .box_3{
+      margin-left: 185px;
+      margin-top: -137px;
+    }
+    
+    .box_4{
+      margin-left: 285px;
+      margin-top: -137px;
+    }
+  }
+  
+  
